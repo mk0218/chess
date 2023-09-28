@@ -4,7 +4,7 @@ pub struct Game(Board);
 
 impl Game {
     pub fn run() {
-        let mut board = Board::new();
+        let board = Board::new();
         println!("{board}");
     }
 }
